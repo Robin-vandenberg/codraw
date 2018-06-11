@@ -1,0 +1,25 @@
+{
+  "name": "co-draw",
+  "version": "1.0.0",
+  "description": "An online app, which let's you draw with other people. Using node.js, websockets and p5.js (For now)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.fhict.nl/I358211/co-draw.git"
+  },
+  "keywords": [
+    "node.js",
+    "sockets",
+    "p5.js"
+  ],
+  "author": "Robin van den Berg",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CoDraw</title>
+    <script type="text/javascript" src="libraries/p5.js"></script>
+    <script type="text/javascript" src="libraries/p5.dom.js"></script>
+    <script type="text/javascript" src="libraries/p5.sound.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+  </head>
+
+  <body>
+    <h3>Drawing app</h3>
+    <form>
+      <label for="brushcolor">BrushColor: </label>
+      <input type="color" name="brushcolor" id="brushColor">
+      <br>
+      <label for="brushsize">Brushsize: </label>
+      <input type="number" name="brushsize" id="brushSize" value="20">
+      <br>
+      <input type="button" id="saveBtn" value="Save Canvas">
+    </form>
+  </body>
+</html>
