@@ -13,5 +13,3 @@ $ npm install
 ## License
 
 MIT © [Robin van den Berg](https://git.fhict.nl/I358211)
-# codraw
-# codraw
